@@ -4,6 +4,9 @@ The main objective of this project was to design a secure network by separating 
 
 Scalability was another key design objective. This network architecture allows the enterprise to add new departments and or/hosts if needed with minimal configuration changes. It can be easily done due to the segmentation of the company into different departments, de reduction of the IP address waste and automatic IP allocation.
 
+<img width="900" height="627" alt="image" src="https://github.com/user-attachments/assets/bea50eaf-b711-468f-944b-c69ceccaef7d" />
+
+
 # TOPOLOGY
 Regarding the network topology, it consists of:
   - 3 Cisco 2911 routers
