@@ -21,6 +21,7 @@ The design decisions taken regarding this specific network have been previously 
 The VLANs were implemented so the departments are separated logically, thus reducing broadcast traffic and improving scalability and security.
 
 APPLIED PROTOCOLS AND RULES:
+
 VLSM and OSPF were applied to optimize IPv4 address allocations according to the number of hosts in each department, and to offer faster and better scalability, respectively.
 
 DHCP automates the host configuration, which simplifies network administration.
