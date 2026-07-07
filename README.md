@@ -2,7 +2,7 @@
 This repository refers to an enterprise network simulation using Cisco Packet Tracer. 
 The main objective of this project was to design a secure network by separating departments, providing automatic IP allocation, implementing dynamic routing and efficient addressing. It also offers controlled connectivity, default routes and access control lists, as well as network addresses translation.
 
-Scalability was another key design objective. This network architecture allows the enterprise to add new departments and or/hosts if needed with minimal configuration changes. It can be easily done due to the segmentation of the company into different departments, de reduction of the IP address waste and automatic IP allocation.
+Scalability was another key design objective. This network architecture allows the enterprise to add new departments and/or hosts if needed with minimal configuration changes. This can be done easily due to the segmentation of the company into different departments, reduced IP address waste and automatic IP allocation.
 
 <img width="900" height="627" alt="image" src="https://github.com/user-attachments/assets/bea50eaf-b711-468f-944b-c69ceccaef7d" />
 
@@ -28,10 +28,10 @@ DHCP automates the host configuration, which simplifies network administration.
 
 The implementation of ACLs allows to enforce security policies. This way, guests are not able to access internal company resources.
 
-Lastly, the PAT application allows internal devices to use and share one single IP address to access Internet.
+Lastly, the PAT application allows multiple internal devices to use and share one single IP address to access Internet.
 
 # FUTURE IMPROVEMENTS
-Taking a look into the future, it would be interesting to migrate RIP to OSPF across the whole network, implement HSRP to provide gateway redundancy and improve network availability and to introduce IPv6.
+Taking a look into the future, it would be interesting to implement HSRP to provide gateway redundancy and improve network availability and to introduce IPv6.
 
 # TECHNOLOGIES
 Cisco IOS, Cisco Packet Tracer, VLAN, Router-on-a-Stick, VLSM, RIP v2, OSPF, DHCP, ACL, NAT/PAT.
